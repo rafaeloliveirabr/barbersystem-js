@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="id=edge" />
+        <title>Criar Cliente</title>
+        <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    </head>
+    <body>
+        <section class="container">
+            <h1>Cadastrar Cliente:</h1>
+            <p>
+                <span class="style-li">
+                <span>Preencha os campos obrigatórios abaixo.</span>
+                <button class="show-btn">Exibir cadastrados</button>
+            </span>
+            </p>
+            <form class="formu" action="" method="get">
+                <label for="inputName">Nome<span style = "color: red">*</span>: </label>
+                <input type="text" id="inputName" class="inp" />
+                <label for="inputSurname">Sobrenome<span style = "color: red">*</span>: </label>
+                <input type="text" id="inputSurname" class="inp" />
+                <label for="inputPhone">Telefone<span style = "color: red">*</span>: </label>
+                <input type="text" id="inputPhone" class="inp" />
+                <label for="inputAddress">Endereço: </label>
+                <input type="text" id="inputAddress" class="inp" />
+                <button class="confirm-btn">Adicionar Cliente</button>
+            </form>
+            <ul class="resultado"></ul>
+        </section>
+
+        <script src="./Assets/JS/main.js"></script>
+    </body>
+</html>
